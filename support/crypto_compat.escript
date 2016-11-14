@@ -22,7 +22,7 @@ main([]) ->
             HASH_FINAL = "crypto:hash_final(Data)",
             HASH_UPDATE = "crypto:hash_update(Data, Salt)",
             HASH_INIT = "crypto:hash_init(sha)",
-            io:format("...supports cryto:hash/2~n");
+            io:format("...supports crypto:hash/2~n");
         false ->
             HASH_SHA = "crypto:sha(Data)",
             HASH_FINAL = "crypto:sha_final(Data)",
